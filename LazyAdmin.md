@@ -58,7 +58,7 @@ Command Breakdown:
 
 It seems that right away gobuster was able to find a directory called `/content`.  
 Let's see if we can pull up the content directory in our browser.  
----
+
 ## Recon
 ---
 ![content](images/content.png "content") 
@@ -165,6 +165,6 @@ Command: `sudo /usr/bin/perl /home/itguy/backup.pl`
 Now that we have root access we need to try and find out root flag. 
 
 ![rootFlag](images/rootFlag.png "rootFlag")  
-And just like that we have collected the root flag and pwnd this challange. 
+And just like that we have collected the root flag and pwnd this challenge. 
 
 # Congratulations you have just completed the Lazy Admin challenge!
